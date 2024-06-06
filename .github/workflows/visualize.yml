@@ -12,7 +12,7 @@ jobs:
             - name: Repo Visualizer
               uses: githubocto/repo-visualizer@0.9.1
               with:
-                branch: main
+                should_push: false
                 # If given, the name of an artifact to be created containing the diagram. Default: don't create an artifact.
                 artifact_name: diagram 
           
